@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bs task 3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <style>
+        .navbar{
+            border-bottom: solid 1px rgb(211, 206, 206);
+        }
+
+        .sign-btn{
+            color: rgb(65, 65, 247);
+            border:solid  rgb(65, 65, 247) 1px;
+            border-radius: 2px;
+        }
+        .card-title{
+            border-bottom: solid rgb(173, 166, 166) 1px;
+        }
+
+        .card-btn:hover{
+            color: blue;
+            border:solid blue 1px;
+        }
+
+        .card-btn{
+            color:white;
+            background-color: blue;
+        }
+
+        img{
+            height: 100px;
+            width: 150px;
+            padding: 0px;
+            margin: 0px;
+        }
+        /* i{
+            margin-left: -50px;
+
+        } */
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg">
+                        <a href="" class="navbar-brand ms-2">Company name</a>
+                        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="mynav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item mx-2"><a href="" class="nav-link">Features</a></li>
+                                <li class="nav-item mx-2"><a href="" class="nav-link">Enterprise</a></li>
+                                <li class="nav-item mx-2"><a href="" class="nav-link">Support</a></li>
+                                <li class="nav-item mx-2"><a href="" class="nav-link">Pricing</a></li>
+                                <button class="btn nav-item mx-2 sign-btn">Sign up</button>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mt-3 content container d-flex flex-column justify-content-center align-items-center">
+        <p class="display-5 mb-2 text-center">Pricing</p>
+        <p class="mb-1 text-center">Quickly build an effective pricing table for your potential customers with this <br>bootstrap example. It's built with default Bootstrap components and utilities 
+        <br>with little customisation.</p>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-4 ">
+                <div class="card mt-2">
+                    <p class="card-title fs-5 text-center p-2">Free</p>
+                    <p class="fs-2 text-center"><b>$0 </b>/ mo</p>
+                    <p class="card-text text-center mb-1">10 users included</p>
+                    <p class="card-text text-center mb-1">2 GB of storage</p>
+                    <p class="card-text text-center mb-1">Email support</p>
+                    <p class="card-text text-center mb-3">Help centre access</p>
+                    <button class="btn mx-4 mb-3 card-btn">Sign up for free</button>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="card mt-2">
+                    <p class="card-title fs-5 text-center p-2">Pro</p>
+                    <p class="fs-2 text-center"><b>$15 </b>/ mo</p>
+                    <p class="card-text text-center mb-1">20 users included</p>
+                    <p class="card-text text-center mb-1">10 GB of storage</p>
+                    <p class="card-text text-center mb-1">Priority Email support</p>
+                    <p class="card-text text-center mb-3">Help centre access</p>
+                    <button class="btn mx-4 mb-3 card-btn">Get started</button>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="card mt-2">
+                    <p class="card-title fs-5 text-center p-2">Enterprise</p>
+                    <p class="fs-2 text-center"><b>$29 </b>/ mo</p>
+                    <p class="card-text text-center mb-1">30 users included</p>
+                    <p class="card-text text-center mb-1">15 GB of storage</p>
+                    <p class="card-text text-center mb-1">Phone and email support</p>
+                    <p class="card-text text-center mb-3">Help centre access</p>
+                    <button class="btn mx-4 mb-3 card-btn">Contact us</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer container" style="margin-top: 70px;">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="bootstrap.jpeg" alt="">
+                <p style="margin-top: -25px; margin-left: 40px;"><i class="fa-regular fa-copyright"></i> 2017</p>
+                
+
+
+            </div>
+            <div class="col-md-3">
+                <h4>Features</h4>
+                <ul style="list-style-type: none; padding: 0;">
+                    <li>Cool stuff</li>
+                    <li>Random feature</li>
+                    <li>Team feature</li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h4>Resources</h4>
+                <ul style="list-style-type: none; padding: 0;">
+                    <li>Resource</li>
+                    <li>Resource name</li>
+                    <li>Another resource</li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h4>About</h4>
+                <ul style="list-style-type: none; padding: 0;">
+                    <li>Team</li>
+                    <li>Locations</li>
+                    <li>Privacy</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
